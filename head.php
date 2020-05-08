@@ -2,6 +2,7 @@
 Github : ChangMun00
 이 소스는 깃허브에 있는 소스입니다 :)
 이 주석을 지우지 말아주세요
+CDN 사용안내 : https://notice.winsub.kr/view.php?id=5
 -->
 <!DOCTYPE html>
  <?php
