@@ -1,3 +1,8 @@
+<!-- 
+Github : ChangMun00
+이 소스는 깃허브에 있는 소스입니다 :)
+이 주석을 지우지 말아주세요
+-->
 <!DOCTYPE html>
  <?php
 $xml=simplexml_load_file("data.xml")
