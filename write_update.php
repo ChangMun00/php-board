@@ -3,13 +3,16 @@ require_once("dbconfig.php");
 
 if (isset($_POST["id"])) {
     $id = $_POST["id"];
+    $id = htmlspecialchars($id);
 } else {
     $writer = $_POST["writer"];
+    $writer = htmlspecialchars($writer);
     $date = date("Y-m-d H:i:s");
 }
 
 $password = $_POST["password"];
 $title = $_POST["title"];
+$title = htmlspecialchars($title);
 $content = $_POST["content"];
 
 if (isset($id)) {
